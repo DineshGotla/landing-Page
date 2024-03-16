@@ -1,0 +1,272 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.nav{
+    height:10vh;
+    width:100%;
+    background-color: rgba(143, 245, 133, 0.8);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    border-bottom: 2px solid green;
+}
+
+.eff{
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 1px rgba(35, 107, 51, 0.8);
+    background-color: rgb(37, 98, 11);
+    color:white;
+}
+
+marquee{
+    background-color: rgb(31, 215, 31);
+    border: 2px solid green;
+    border-collapse: collapse;
+    color: white;
+    margin-top: 10vh;
+}
+
+.op{
+    width: 90%;
+    height:100%
+
+}
+
+.bx-menu{
+    font-size: 2rem;
+    
+}
+
+img{
+    height:10vh;
+    width: 10vh;
+}
+
+.logo img{
+    height: 30vh;
+    width: 30vh;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tray img{
+    height:50vh;
+    width:50vh;
+}
+.discript{
+    margin-left: 20px;
+    color: green;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-stretch: expanded;
+    text-shadow: 1px 1px 1px green;
+}
+
+.logo a{
+    text-decoration: none;
+    color: green;
+    font-size:xx-large ;
+    font-weight: 900;
+}
+
+.bx-menu:hover{
+    border: 1px solid green;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 1px green;
+    background-color: green;
+    color: white;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li a{
+    color: rgb(4, 72, 4);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+}
+
+li a:hover{
+    border: 1px solid green;
+    box-shadow: 0px 0px 5px 1px green;
+    border-radius: 2rem;
+}
+
+.bord{
+    padding: 0.7rem;
+    box-shadow: 0 0 10px 1px green;
+}
+
+li {
+    margin-top: 1rem;
+    
+}
+
+
+.main{
+    height: 170vh;
+    width:100%;
+    background-color: rgba(189, 238, 189,0.9);
+   display: inline-block;
+    background-size:cover;
+    display: grid;
+    /* margin-top: 10vh; */
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 60% 40%;
+    flex-direction: column;
+    
+}
+
+.im{
+    height: 100%;
+    width: 100%;
+    background-image: url("attributes/fruit.png");
+    background-size: cover;
+    opacity: 1;
+    position: fixed;
+    z-index: -1;
+}
+
+.exp{
+    height: 40vh;
+    width: 30vh;
+    background-color: rgb(148, 232, 164);
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+}
+
+.options{
+    border: 1px solid green;
+}
+
+.today{
+    height: 90vh;
+    width: 70vh;
+    background-color: rgba(132, 215, 166,1);
+    align-self: flex-end;
+    margin: 20px 20px;
+    border-radius: 1rem;
+    display: grid;
+    box-shadow: 0px 0px 10px 2px greenyellow;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.ele{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.item{
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+}
+
+.img1{
+    background-image: url("attributes/apples.jpeg");
+    background-size: cover;
+}
+
+.img2{
+    background-image: url("attributes/bananas.jpg");
+    background-size: cover;
+}
+.img3{
+    background-image: url("attributes/pomagranate.jpg");
+    background-size: cover;
+}
+.img4{
+    background-image: url("attributes/fig.jpg");
+    background-size: cover;
+}
+.img5{
+    background-image: url("attributes/grapes.webp");
+    background-size: cover;
+}
+.img6{
+    background-image: url("attributes/oranges.jpg");
+    background-size: cover;
+}
+
+.item:hover{
+    border: 2px solid  green;
+    box-shadow: 0px 0px 6px 1px green;
+    background-size:14lh;
+}
+
+.text{
+    text-align: center;
+}
+
+button{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    scale: 1.5;
+}
+
+.foot{
+    margin-top: auto;
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(97, 234, 159,0.8);
+    border-radius: 300% 300% 300% 100%;
+    border-top: 1px solid green;
+    box-shadow: 1px 0 20px 2px green;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+.contact{
+    text-align: center;
+    color: green;
+}
+
+.contact a{
+    color: green;
+    text-decoration: none;
+}
+
+.bxl-instagram{
+    font-size: 1rem;
+}
+
+.bxl-meta{
+    font-size: 1rem;
+}
+
+
+.vendor img{
+    height: 60vh;
+    width: 35vh;
+}
